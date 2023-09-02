@@ -1,0 +1,71 @@
+.looks {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+div.relative_body {
+    position: relative;
+    width: 240px;
+    height: 180px;
+    left: 170px;
+    top: 00px;
+    border: 1px solid black
+}
+
+div.absolute_body11 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    background-color: red
+}
+
+div.absolute_body12 {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background-color: red
+}
+
+div.absolute_body13 {
+    position: absolute;
+    top: 21px;
+    left: 30px;
+    background-color: red
+}
+
+div.absolute_body14 {
+    position: absolute;
+    top: 21px;
+    left: 50px;
+    background-color: red
+}
+
+div.absolute_body15 {
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    background-color: red
+}
+
+div.absolute_body16 {
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    background-color: red
+}
+
+div.absolute_body17 {
+    position: absolute;
+    top: 21px;
+    left: 90px;
+    background-color: red
+}
+
+div.absolute_body18 {
+    position: absolute;
+    top: 21px;
+    left: 110px;
+    background-color: red
+}
