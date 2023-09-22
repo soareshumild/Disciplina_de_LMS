@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Vinicius Soares Lima
+            <link rel="stylesheet" href="styles.css" />
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1>Vinicius Soares Lima</h1>
+
+            <hr/> <!--só por questão de estética-->
+    <article>
+
+        <h2>Personagens baseados em figuras históricas</h2>
+        </header>
+
+        <!--TABELA-->
+   
+        <table border ="1"> <!--coloquei os links na tabela porque li a questão sem prestar atenção-->
+            
+            <thead>
+            <tr>
+                <th>
+                    <!--target = "_blank" é para abrir a pagina em uma nova guia-->
+                    <a href="https://pt.wikipedia.org/wiki/Miyamoto_Musashi" target = "_blank"> Musashi Myamoto </a>
+                </th>
+                <th>
+                    <a href="https://pt.wikipedia.org/wiki/Sasaki_Kojir%C5%8D" target = "_blank"> Sasaki kojiro </a>  
+                </th>
+                <th>
+                    
+                    <a href="https://pt.wikipedia.org/wiki/%C3%9Eorfinnr_Karlsefni" target = "_blank"> Thorfinn </a>
+                </th>
+            </tr>
+            </thead>
+
+            <figure>
+
+            <tr>
+                <td style="text-align:center;">  <!--text-align:center; Para centralizar a imagem na tabela-->
+                    <img src="https://i.redd.it/why-was-musashi-praying-for-on-this-panel-v0-k2xnp9yctuw91.jpg?s=49011adf4c20811efcc8e561c0f2921df25d3214" 
+                    width="200" height="200" alt="imagem do mangá vagabond do personagem Musashi Miyamoto">
+                </td>
+                <td style="text-align:center;">
+                    <img src="https://i.pinimg.com/564x/69/b1/f0/69b1f0c2395c009b7e0fcb7ad8ba0fc5.jpg" 
+                    width="200" height="200" alt="imagem do mangá vagabond do personagem Sasaki kojiro">
+                </td>
+                <td style="text-align:center;">
+                    <img src="https://i.pinimg.com/474x/bf/b4/b6/bfb4b6bf038b30c42116828d2f539b30.jpg" 
+                      width="200" height="200" alt="imagem do mangá Viland saga do personagem Thorfinn">
+                </td>
+            </tr>
+
+            </figure>
+
+             <!--descrição dos personagens-->
+            <tr>
+                <td>
+                <p><b>Miyamoto Musashi</b> é o principal personagem do mangá Vagabond, de<br/>
+                Takehiko Inoue. Na vida real Musashi foi um dos maiores espadachins<br/>
+                da historia, e é considerado um herói nacional no Japão.<br/>
+                </p>
+                </td>
+                <td>
+                <p><b>Sasaki Kojiro</b> é um dos principais personagens do mangá Vagabond<br/>
+                    e é considerado o arquirrival do protagonista Miyamoto Musashi.<br/>
+                </p>
+                </td>
+                <td>
+                <p><b>Thorfinn Thorsson</b>, também apelidado de Karlsefni, é ex-guerreiro<br/>
+                     da banda de Askeladd, bem como um ex-escravo na fazenda de Ketil, que<br/>
+                      atualmente é um comerciante e aventureiro tentando se estabelecer em<br/>
+                       Vinland. Ele é o protagonista de Vinland Saga.<br/>
+                </p>
+                </td>
+            </tr>
+        </table>
+    </article>
+
+        <br/>  
+
+    <article>
+        <h2>Por que se faz a utilização de figuras históricas nos quadrinhos e animção? </h2>
+        <tr>
+            <td>
+            <p> A utilização de figuras históricas em animações, quadrinhos e outras formasde mídia é uma maneira versátil de enriquecer narrativas,<br/>
+                educar o público e explorar uma variedade de temas e abordagens criativas. Elas oferecem uma conexão com o passado e permitem <br/>
+                que os criadores explorem questões contemporâneas por meio da lente da história.
+            </p>
+            </td>
+        </tr>
+    </article>
+
+    <style>
+        article{
+            border: 5px double rgb(0, 0, 0);
+            padding: 10px 6px 10px 16px
+        }
+    </style>
+
+    <section>
+        <h2>Obras que apresentam estes personagens</h2>
+         <!--LISTA COM OS LINKS-->
+        <ul>
+            <li> <a href="https://pt.wikipedia.org/wiki/Vagabond" target = "_blank"> Vagabond(mangá) </a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Vinland_Saga_(mang%C3%A1)" target = "_blank"> Record of Ragnarok(mangá/anime) </a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Record_of_Ragnarok" target = "_blank"> Viland saga(mangá/anime)</a></li>
+        </ul>
+    </section>
+
+    <br/>  
+
+    <!--Formulario-->
+    <h2>Fomulário</h2>
+
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+        <!--Um campo texto para nome com que permite no máximo 15 caracteres-->
+        <h4>Seu nome:</h4>
+        <input type="text" name="nome" maxlength="15"> <br/> <!--maxlength para limitar até 15 caracteres-->
+
+        <!--Um input do tipo radiobox-->
+        <h4>Qual seu personagem favorito?</h4>
+        <input type="radio" name="personagem" value="personagem1">Miyamoto Musashi<br/>
+        <input type="radio" name="personagem" value="personagem2">Sasaki Kojiro<br/>
+        <input type="radio" name="personagem" value="personagem3">Thorfinn<br/>
+
+        <!--Um input do tipo checkbox-->
+        <h4>Por que gosta desse personagem?</h4>
+        <input type="checkbox" name="resposta" value="resposta1">É forte<br/>
+        <input type="checkbox" name="resposta" value="resposta2">Personalidade<br/>
+        <input type="checkbox" name="resposta" value="resposta3">Me identifico<br/>
+        <input type="checkbox" name="resposta" value="resposta4">História<br/>
+        <input type="checkbox" name="resposta" value="resposta5">Inpirador<br/>
+
+        <!--Um campo numérico para inserir números entre 25000 e 30000-->
+        <h4>Entre 25000 e 30000, o qual bom você acha esse personagem?</h4>
+        <input type="number" name="quantidade" min="25000" max="30000"><br/>
+
+    </form>
+    <hr/> <!--só por questão de estética-->
+
+    </body>
+</html>
